@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS_Dom_Ro'yhat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="p-4 bg-light">
+    
+    <section class="p-2">
+        <div class="container">
+            <h1 class="text-center">Control Panel</h1>
+            <div class="row mt-4 g-3">
+                <div class="col-lg-6">
+                    <form class="add-form">
+                        <div class="row g-2">
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control form-control-lg" id="nameInput" placeholder="Name" required autocomplete="off">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" id="lastnameInput" class="form-control form-control-lg" placeholder="LastName"autocomplete="off" required>
+                            </div>
+                        </div>
+                        <select  class="form-select form-select-lg mt-2" name="interest" id="interest">
+                            <option value="Football">Football</option>
+                            <option value="Math">Math</option>
+                            <option value="Programming">Programming</option>
+                        </select>
+                        <button class="mt-2 btn-lg btn-primary w-100"type="submit"> Add student</button>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
